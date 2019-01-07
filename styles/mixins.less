@@ -1,0 +1,8 @@
+.status(@ele: "") {
+  @{ele}.status          { color: @text-color-highlight; }
+  @{ele}.status-added    { color: @text-color-success; } // green
+  @{ele}.status-ignored  { color: @text-color-subtle; }  // faded
+  @{ele}.status-modified { color: @text-color-warning; } // orange
+  @{ele}.status-removed  { color: @text-color-error; }   // red
+  @{ele}.status-renamed  { color: @text-color-info; }    // blue
+}

@@ -1,0 +1,76 @@
+.settings-view {
+  code {
+    color: @text-color;
+  }
+
+  a, .link {
+    color: @text-color;
+    text-decoration: underline;
+
+    &:hover {
+      color: @text-color;
+      text-decoration: none;
+    }
+  }
+
+  select {
+    &.form-control {
+      background-color: @grayMid;
+    }
+  }
+
+  .setting-title {
+    font-weight: 400;
+  }
+
+  .setting-description {
+    font-weight: 400;
+  }
+
+  .section {
+    atom-text-editor[mini] {
+      opacity: 0.9;
+    }
+
+    .section-heading,
+    .sub-section-heading {
+      font-weight: 400;
+    }
+  }
+
+  .table {
+    td, th {
+      border-color: @table-border-color;
+    }
+  }
+
+  .packages {
+    .search-container {
+      align-items: center;
+    }
+  }
+
+  .package-card {
+    background-color: @package-card-background-color;
+  }
+
+  .config-menu {
+    background: @config-menu-background-color;
+    border: none;
+
+    .nav {
+      li {
+        &.active {
+          a {
+            text-decoration: none;
+            background-color: @config-menu-background-color-active;
+          }
+        }
+
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

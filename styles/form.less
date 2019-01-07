@@ -1,0 +1,13 @@
+.form-control {
+  border-radius: @component-border-radius;
+}
+
+.input-checkbox, .input-radio, .input-toggle {
+  &::before, &::after {
+    background-color: @text-color-selected;
+  }
+
+  &:checked {
+    background: @input-background-color-active;
+  }
+}

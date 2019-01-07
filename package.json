@@ -1,0 +1,17 @@
+{
+  "name": "notepad-ui",
+  "theme": "ui",
+  "version": "0.0.0",
+  "description": "A notepad inspired UI for Atom. Best use with notepad syntax.",
+  "keywords": [
+    "atom",
+    "ui",
+    "theme",
+    "notepad"
+  ],
+  "repository": "https://github.com/soloistco/notepad-ui",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

@@ -1,0 +1,191 @@
+// UI Variables
+// -------------------
+
+// These are the official UI variables that every UI theme should define.
+// It allows other packages to match your theme.
+
+// Overrides: atom/static/variables/ui-variables.less
+
+// Colors
+@white: #FFFFFF;
+@grayWhite: #F3F3F2;
+@grayLight: #DCDDDD;
+@gray: #9FA0A0;
+@grayMid: #383C3C;
+@grayDark: #2B2B2B;
+
+@black: #1E1F20;
+
+@navyLight: #455A64;
+@navy: #37474F;
+@navyDark: #263238;
+
+@red: #DC3B34;
+@redDark: #D90000;
+
+@pink: #FD8488;
+@pinkDark: #FC7475;
+
+@orange: #FE9300;
+@orangeDark: #FD7A00;
+
+@yellow: #FCF856;
+@yellowDark: #FFDF3C;
+
+@green: #278E5F;
+@greenDark: #008344;
+
+@aqua: #95DADF;
+@aquaDark: #6ED0D4;
+
+@blue: #0093DC;
+@blueDark: #0079BE;
+
+@indigo: #005E85;
+@indigoDark: #1B3745;
+
+@purple: #9771AE;
+@purpleDark: #7D469A;
+
+@app-background-color: @black;
+
+// Base colors
+@base-background-color: @app-background-color;
+@base-border-color:     @grayDark;
+
+// Text Colors
+@text-color:           @grayWhite;
+@text-color-dark:      @grayMid;
+@text-color-subtle:    @grayLight;
+@text-color-highlight: @grayWhite;
+@text-color-selected:  @white;
+
+@text-color-info:    @blue;
+@text-color-success: @green;
+@text-color-warning: @orange;
+@text-color-error:   @red;
+
+// Background colors
+@background-color-info:    @blueDark;
+@background-color-success: @greenDark;
+@background-color-warning: @orangeDark;
+@background-color-error:   @redDark;
+
+@background-color-subtle:    lighten(@base-background-color, 3%);
+@background-color-lighter:   lighten(@base-background-color, 6%);
+@background-color-highlight: darken(@grayMid, 3%);
+@background-color-selected:  @grayMid;
+
+// Component colors
+@title-bar-background-color: @base-background-color;
+@title-bar-border-color:     @base-border-color;
+
+@pane-item-background-color: @background-color-subtle;
+@pane-item-border-color:     @background-color-subtle;
+
+@panel-background-color: @grayDark;
+@panel-border-color:     @grayDark;
+
+@panel-heading-background-color: @pane-item-background-color;
+@panel-heading-border-color:     @pane-item-border-color;
+
+@inset-panel-background-color: @pane-item-background-color;
+@inset-panel-border-color:     @pane-item-border-color;
+
+@tool-panel-background-color: @pane-item-background-color;
+@tool-panel-border-color:     @pane-item-border-color;
+
+@settings-panel-background-color: @pane-item-background-color;
+@settings-panel-border-color:     @pane-item-border-color;
+
+@modal-background-color: @pane-item-background-color;
+@modal-border-color:     @pane-item-border-color;
+
+@overlay-background-color: @pane-item-background-color;
+@overlay-border-color: @pane-item-background-color;
+
+@package-card-background-color: @background-color-highlight;
+
+@table-border-color: @background-color-highlight;
+
+@list-text-color:          @text-color;
+@list-text-color-select:          @text-color-selected;
+@list-background-color:          @base-background-color;
+@list-background-color-selected: @background-color-selected;
+@list-background-color-highlight: @background-color-highlight;
+
+@button-background-color:          @background-color-lighter;
+@button-background-color-hover:    @background-color-highlight;
+@button-background-color-selected: @background-color-selected;
+@button-border-color:              @background-color-lighter;
+
+@button-toggle-text-color: @grayWhite;
+@button-toggle-background-color: @grayMid;
+@button-toggle-border-color: @grayMid;
+
+@tab-bar-background-color:    @base-background-color;
+@tab-bar-border-color:        @button-border-color;
+@tab-background-color:        @button-background-color;
+@tab-background-color-hover:  @button-background-color-hover;
+@tab-background-color-active: @button-background-color-selected;
+@tab-border-color:            @button-background-color;
+
+@nav-text-color:              @text-color-selected;
+@nav-background-color:        @base-background-color;
+@nav-background-color-active: @background-color-selected;
+
+@config-menu-background-color:        @background-color-highlight;
+@config-menu-background-color-active: @background-color-selected;
+@config-menu-border-color:            @background-color-highlight;
+
+@input-background-color:        @white;
+@input-background-color-subtle: @grayWhite;
+@input-background-color-highlight: @grayLight;
+@input-background-color-active: @background-color-selected;
+@input-border-color:            @white;
+@placeholder-text-color: @gray;
+
+@select-background-color: @grayMid;
+
+@badge-background-color: @grayWhite;
+
+@tooltip-text-color:       @text-color-dark;
+@tooltip-background-color: @badge-background-color;
+@tooltip-border-color:     @badge-background-color;
+
+@scrollbar-background-color: @grayWhite;
+@scrollbar-track-color:      @gray;
+
+@progress-background-color: @grayWhite;
+
+@resize-handle-background-color: @grayMid;
+
+@tree-view-background-color: @pane-item-background-color;
+@tree-view-border-color:     @grayDark;
+
+@status-bar-background-color: @pane-item-background-color;
+@status-bar-border-color:     @grayDark;
+
+// Site colors
+@ui-site-color-1: @blue;
+@ui-site-color-2: @green;
+@ui-site-color-3: @orange;
+@ui-site-color-4: @pink;
+@ui-site-color-5: @yellow;
+
+// Sizes
+@font-size: 12px;
+@input-font-size: 14px;
+
+@disclosure-arrow-size: 12px;
+
+@component-padding: 10px;
+@component-icon-padding: 5px;
+@component-icon-size: 16px;
+@component-line-height: 25px;
+
+@tab-height: 48px;
+
+// Misc
+@component-border-radius: 2px;
+@font-family: '.SFNSText-Regular', 'SF UI Text', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
