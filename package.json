@@ -2,7 +2,7 @@
   "name": "notepad-ui",
   "theme": "ui",
   "version": "1.0.0",
-  "description": "A notepad inspired UI for Atom. Best use with notepad syntax.",
+  "description": "A minimalistic UI theme for Atom inspired by classic notebook.",
   "keywords": [
     "atom",
     "ui",
