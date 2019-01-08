@@ -13,4 +13,4 @@ apm install notepad-ui
 You can also install from the settings panel by selecting Install and then search for this package.
 
 ## License
-Notepad Syntax is [licensed](LICENSE.md) under MIT.
+Notepad UI is [licensed](LICENSE.md) under MIT.
