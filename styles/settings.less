@@ -38,6 +38,24 @@
     }
   }
 
+  .sub-section {
+    .sub-section-heading {
+      &.has-items {
+        margin: 0 0 10px;
+        padding: 8px;
+        line-height: normal;
+        border-radius: @component-border-radius;
+
+        &::before {
+          width: auto;
+          height: auto;
+          margin: 0 10px 0 0;
+          vertical-align: bottom;
+        }
+      }
+    }
+  }
+
   .table {
     td, th {
       border-color: @table-border-color;
@@ -55,6 +73,7 @@
   }
 
   .config-menu {
+    min-width: 200px;
     background: @config-menu-background-color;
     border: none;
 
