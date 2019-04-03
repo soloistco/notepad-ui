@@ -15,12 +15,19 @@
     color: @text-color-selected;
     background-color: @button-background-color-selected;
   }
+  &:focus, &:focus:active {
+    outline: none;
+  }
   &.selected {
     color: @text-color-selected;
     background-color: @button-background-color-selected;
   }
-  &:focus, &:focus:active {
-    outline: none;
+
+  &.btn-default {
+    &.icon-link-external {
+      height: auto;
+      padding: 8px 2px;
+    }
   }
 }
 
