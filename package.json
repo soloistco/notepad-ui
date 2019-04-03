@@ -1,7 +1,7 @@
 {
   "name": "notepad-ui",
   "theme": "ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A minimalistic UI theme for Atom inspired by classic notebook.",
   "keywords": [
     "atom",
